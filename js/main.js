@@ -2,7 +2,7 @@
 const movieList = document.getElementById("movieList");
 const searchInput = document.getElementById("searchInput");
 
-const apiKey = "510353f2827923d8291bc881055c812f"; // Reemplaza con tu clave de API
+const apiKey = "510353f2827923d8291bc881055c812f";
 const apiUrl = `https://api.themoviedb.org/3/search/movie?api_key=${apiKey}`;
 
 function searchMovies(query) {
@@ -35,4 +35,4 @@ searchInput.addEventListener("input", () => {
 });
 
 // Renderiza las películas al cargar la página
-searchMovies("Avengers"); // Puedes inicializar con una búsqueda predefinida
+searchMovies("Avengers");
